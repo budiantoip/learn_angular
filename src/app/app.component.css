@@ -1,0 +1,7 @@
+table tbody tr td button {
+    width: 100%;
+}
+
+table tbody tr td {
+    padding-bottom: 10px !important;
+}
