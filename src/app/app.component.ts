@@ -12,8 +12,6 @@ export class AppComponent {
   disabledTextBox=true;
   show=true;
 
-  
-
   getMyName() {
     alert('button clicked!');
   }

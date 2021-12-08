@@ -8,6 +8,7 @@ import { LoginComponent } from './users/login/login.component';
 import { SignupComponent } from './users/signup/signup.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
+import { FunctionsComponent } from './functions/functions.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
     LoginComponent,
     SignupComponent,
     ConditionsComponent,
-    InterpolationComponent
+    InterpolationComponent,
+    FunctionsComponent
   ],
   imports: [
     BrowserModule,
