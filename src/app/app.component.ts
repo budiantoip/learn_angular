@@ -6,22 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blog app';
   name = 'bruce';
-  obj = {
-    name: 'kelly',
-    age: 20
-  };
-  arr = ['bruce', 'tony', 'peter'];
-  siteUrl = window.location.href;
   myName="bruce";
   currentValue="";
   disabledTextBox=true;
   show=true;
 
-  getName() {
-    return this.name;
-  }
+  
 
   getMyName() {
     alert('button clicked!');

@@ -7,6 +7,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { LoginComponent } from './users/login/login.component';
 import { SignupComponent } from './users/signup/signup.component';
 import { ConditionsComponent } from './conditions/conditions.component';
+import { InterpolationComponent } from './interpolation/interpolation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ConditionsComponent } from './conditions/conditions.component';
     UserListComponent,
     LoginComponent,
     SignupComponent,
-    ConditionsComponent
+    ConditionsComponent,
+    InterpolationComponent
   ],
   imports: [
     BrowserModule,
