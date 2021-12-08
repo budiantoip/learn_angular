@@ -13,6 +13,7 @@ import { EventsComponent } from './events/events.component';
 import { TextboxesComponent } from './textboxes/textboxes.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { SwitchCasesComponent } from './switch-cases/switch-cases.component';
+import { ForLoopComponent } from './for-loop/for-loop.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SwitchCasesComponent } from './switch-cases/switch-cases.component';
     EventsComponent,
     TextboxesComponent,
     PropertyBindingComponent,
-    SwitchCasesComponent
+    SwitchCasesComponent,
+    ForLoopComponent
   ],
   imports: [
     BrowserModule,

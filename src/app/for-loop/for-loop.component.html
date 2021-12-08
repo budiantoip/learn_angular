@@ -1,0 +1,26 @@
+<h2>For Loop in Angular</h2>
+
+<h3>Common Array</h3>
+<table>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{ item }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Array of Object</h3>
+<table border="1">
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Email</td>
+        </tr>
+        <tr  *ngFor="let item of arrayOfObject">
+            <td>{{ item.name }}</td>
+            <td>{{ item.age }}</td>
+            <td>{{ item.email }}</td>
+        </tr>
+    </tbody>
+</table>
