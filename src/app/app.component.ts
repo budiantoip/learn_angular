@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name = 'bruce';
   myName="bruce";
-  currentValue="";
   disabledTextBox=true;
   show=true;
 
@@ -22,18 +21,6 @@ export class AppComponent {
 
   setMyName(name: string) {
     alert(name);
-  }
-
-  getValue(object: any) {
-    console.clear();
-    console.warn(object.value);
-    this.currentValue = object.value;
-  }
-
-  getTextBoxValue(value: any) {
-    console.clear();
-    console.warn(value);
-    this.currentValue = value;
   }
 
   toggleTextBox() {

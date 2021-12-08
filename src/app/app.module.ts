@@ -10,6 +10,7 @@ import { ConditionsComponent } from './conditions/conditions.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { FunctionsComponent } from './functions/functions.component';
 import { EventsComponent } from './events/events.component';
+import { TextboxesComponent } from './textboxes/textboxes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EventsComponent } from './events/events.component';
     ConditionsComponent,
     InterpolationComponent,
     FunctionsComponent,
-    EventsComponent
+    EventsComponent,
+    TextboxesComponent
   ],
   imports: [
     BrowserModule,
