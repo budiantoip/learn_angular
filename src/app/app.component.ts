@@ -17,6 +17,7 @@ export class AppComponent {
   myName="bruce";
   currentValue="";
   disabledTextBox=true;
+  show=true;
 
   getName() {
     return this.name;

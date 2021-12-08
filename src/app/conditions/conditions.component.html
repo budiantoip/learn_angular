@@ -1,0 +1,31 @@
+<h2>Conditions in Angular</h2>
+
+<h3 *ngIf="show1">If Block</h3>
+
+<h3 *ngIf="show2; else elseBlock2">If Block</h3>
+<ng-template #elseBlock2>
+  <h3>Else Block</h3>
+</ng-template>
+
+<h3 *ngIf="show3 == true; else elseBlock3">If Block</h3>
+<ng-template #elseBlock3>
+  <h3>Else Block</h3>
+</ng-template>
+
+<h3 *ngIf="show4 == true; then ifBlock4; else elseBlock4">If Block</h3>
+<ng-template #ifBlock4>
+  <h3>If Block</h3>
+</ng-template>
+<ng-template #elseBlock4>
+  <h3>Else Block</h3>
+</ng-template>
+
+<ng-template [ngIf]="show5 == 'red'">
+  <h3 style="background-color: red">Red Block</h3>
+</ng-template>
+<ng-template [ngIf]="show5 == 'green'">
+  <h3 style="background-color: green">Green Block</h3>
+</ng-template>
+<ng-template [ngIf]="show5 == 'blue'">
+  <h3 style="background-color: blue">Blue Block</h3>
+</ng-template>
