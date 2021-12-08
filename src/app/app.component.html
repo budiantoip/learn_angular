@@ -87,3 +87,43 @@
 
     </tbody>
 </table>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="3">
+                <h2>Get TextBox Value in Angular</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Type here : </td>
+            <td>
+                <input type="text" #textbox1 (keyup)="getValue(textbox1.value)" >
+            </td>
+        </tr>
+
+        <tr>
+            <td>Type here : </td>
+            <td>
+                <input type="text" (keyup)="getValue($event.target)" >
+            </td>
+            <td>
+                <h4>Current value : {{ currentValue }}</h4>                
+            </td>
+        </tr>
+
+        <tr>
+            <td>Type here : </td>
+            <td>
+                <input type="text" #textbox2 >
+            </td>
+            <td>
+                <button (click)="getTextBoxValue(textbox2.value)">Get Value</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+

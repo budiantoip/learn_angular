@@ -15,6 +15,7 @@ export class AppComponent {
   arr = ['bruce', 'tony', 'peter'];
   siteUrl = window.location.href;
   myName="bruce";
+  currentValue="";
 
   getName() {
     return this.name;
@@ -35,5 +36,17 @@ export class AppComponent {
   myEvent(evt: any) {
     console.clear();
     console.warn(evt);
+  }
+
+  getValue(object: any) {
+    console.clear();
+    console.warn(object.value);
+    this.currentValue = object.value;
+  }
+
+  getTextBoxValue(value: any) {
+    console.clear();
+    console.warn(value);
+    this.currentValue = value;
   }
 }
