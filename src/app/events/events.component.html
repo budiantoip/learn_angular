@@ -1,0 +1,73 @@
+<h2>Important Events in Angular</h2>
+<table>
+    <tbody>
+
+        <tr>
+            <td>Click Event</td>
+            <td><button (click)="myEvent('this is click event')">Click Me</button></td>
+        </tr>
+
+        <tr>
+            <td>keydown</td>
+            <td>
+                : <input type="text" #keydown (keydown)="myEvent(keydown.value)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>keyup</td>
+            <td>
+                : <input type="text" (keyup)="myEvent('keyup event')" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>keyup with ID</td>
+            <td>
+                : <input type="text" #keyup (keyup)="myEvent(keyup.value)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>keyup with enter</td>
+            <td>
+                : <input type="text" #keyupenter (keyup.enter)="myEvent(keyupenter.value)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>keyup with space</td>
+            <td>
+                : <input type="text" #keyupspace (keyup.space)="myEvent(keyupspace.value)" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>blur</td>
+            <td>
+                : <input type="text" #blur (blur)="myEvent('blur event triggered!')" />
+            </td>
+        </tr>
+
+        <tr>
+            <td 
+                colspan="2"
+                style="background-color: skyblue;"
+                (mouseover)="myEvent('mouseover')"
+                >
+                Mouse Over Event
+            </td>
+        </tr>
+
+        <tr>
+            <td 
+                colspan="2"
+                style="background-color: red;"
+                (mouseleave)="myEvent('mouseleave')"
+                >
+                Mouse Leave Event
+            </td>
+        </tr>
+
+    </tbody>
+</table>

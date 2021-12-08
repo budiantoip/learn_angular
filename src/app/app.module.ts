@@ -9,6 +9,7 @@ import { SignupComponent } from './users/signup/signup.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { FunctionsComponent } from './functions/functions.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FunctionsComponent } from './functions/functions.component';
     SignupComponent,
     ConditionsComponent,
     InterpolationComponent,
-    FunctionsComponent
+    FunctionsComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

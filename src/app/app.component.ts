@@ -24,11 +24,6 @@ export class AppComponent {
     alert(name);
   }
 
-  myEvent(evt: any) {
-    console.clear();
-    console.warn(evt);
-  }
-
   getValue(object: any) {
     console.clear();
     console.warn(object.value);
