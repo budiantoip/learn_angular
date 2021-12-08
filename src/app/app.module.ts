@@ -12,6 +12,7 @@ import { FunctionsComponent } from './functions/functions.component';
 import { EventsComponent } from './events/events.component';
 import { TextboxesComponent } from './textboxes/textboxes.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { SwitchCasesComponent } from './switch-cases/switch-cases.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     FunctionsComponent,
     EventsComponent,
     TextboxesComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    SwitchCasesComponent
   ],
   imports: [
     BrowserModule,
