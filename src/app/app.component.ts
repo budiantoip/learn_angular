@@ -22,8 +22,5 @@ export class AppComponent {
   setMyName(name: string) {
     alert(name);
   }
-
-  toggleTextBox() {
-    this.disabledTextBox = !this.disabledTextBox;
-  }
+  
 }

@@ -11,6 +11,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { FunctionsComponent } from './functions/functions.component';
 import { EventsComponent } from './events/events.component';
 import { TextboxesComponent } from './textboxes/textboxes.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TextboxesComponent } from './textboxes/textboxes.component';
     InterpolationComponent,
     FunctionsComponent,
     EventsComponent,
-    TextboxesComponent
+    TextboxesComponent,
+    PropertyBindingComponent
   ],
   imports: [
     BrowserModule,

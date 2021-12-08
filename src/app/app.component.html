@@ -4,22 +4,6 @@
 <app-functions></app-functions>
 <app-events></app-events>
 <app-textboxes></app-textboxes>
-
-<table>
-    <tbody>
-        <tr>
-            <td>Type here : </td>
-            <td>
-                <input type="text" [disabled]="disabledTextBox" [value]="name" />
-            </td>
-            <td>
-                <input type="text" disabled={{disabledTextBox}} value={{name}} />
-            </td>
-            <td>
-                <button (click)="toggleTextBox()">Enable TextBox</button>
-            </td>
-        </tr>
-    </tbody>
-</table>
+<app-property-binding></app-property-binding>
 
 <app-conditions></app-conditions>
