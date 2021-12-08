@@ -126,4 +126,19 @@
     </tbody>
 </table>
 
-
+<table>
+    <tbody>
+        <tr>
+            <td>Type here : </td>
+            <td>
+                <input type="text" [disabled]="disabledTextBox" [value]="name" />
+            </td>
+            <td>
+                <input type="text" disabled={{disabledTextBox}} value={{name}} />
+            </td>
+            <td>
+                <button (click)="toggleTextBox()">Enable TextBox</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

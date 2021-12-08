@@ -16,6 +16,7 @@ export class AppComponent {
   siteUrl = window.location.href;
   myName="bruce";
   currentValue="";
+  disabledTextBox=true;
 
   getName() {
     return this.name;
@@ -48,5 +49,9 @@ export class AppComponent {
     console.clear();
     console.warn(value);
     this.currentValue = value;
+  }
+
+  toggleTextBox() {
+    this.disabledTextBox = !this.disabledTextBox;
   }
 }
