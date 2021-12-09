@@ -16,6 +16,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { SwitchCasesComponent } from './switch-cases/switch-cases.component';
 import { ForLoopComponent } from './for-loop/for-loop.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { SimpleFormComponent } from './simple-form/simple-form.component';
     PropertyBindingComponent,
     SwitchCasesComponent,
     ForLoopComponent,
-    SimpleFormComponent
+    SimpleFormComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
