@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { TextboxesComponent } from './textboxes/textboxes.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { SwitchCasesComponent } from './switch-cases/switch-cases.component';
 import { ForLoopComponent } from './for-loop/for-loop.component';
+import { SimpleFormComponent } from './simple-form/simple-form.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { ForLoopComponent } from './for-loop/for-loop.component';
     TextboxesComponent,
     PropertyBindingComponent,
     SwitchCasesComponent,
-    ForLoopComponent
+    ForLoopComponent,
+    SimpleFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
