@@ -18,6 +18,7 @@ import { ForLoopComponent } from './for-loop/for-loop.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FooterComponent } from './footer/footer.component';
     ForLoopComponent,
     SimpleFormComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    StyleBindingComponent
   ],
   imports: [
     BrowserModule,
