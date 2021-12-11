@@ -10,6 +10,11 @@ export class AppComponent {
   myName="bruce";
   disabledTextBox=true;
   show=true;
+  parentData="bruce";
+  parentDataObject={
+    name: "bruce",
+    age: 20
+  }
 
   getMyName() {
     alert('button clicked!');

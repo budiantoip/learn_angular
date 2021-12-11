@@ -19,6 +19,7 @@ import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-child.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     SimpleFormComponent,
     HeaderComponent,
     FooterComponent,
-    StyleBindingComponent
+    StyleBindingComponent,
+    PassDataToChildComponent
   ],
   imports: [
     BrowserModule,
