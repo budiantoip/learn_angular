@@ -32,6 +32,8 @@ export class AppComponent {
       address: 'usa'
     }
   ]
+  dataFromChild=null;
+  objectDataFromChild=null;
 
   getMyName() {
     alert('button clicked!');
@@ -43,6 +45,16 @@ export class AppComponent {
 
   setMyName(name: string) {
     alert(name);
+  }
+
+  parentFunction(data: any) {
+    console.warn(data);
+    this.dataFromChild = data;
+  }
+
+  parentObjectFunction(data: any) {
+    console.warn(data);
+    this.objectDataFromChild = data;
   }
   
 }

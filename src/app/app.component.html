@@ -13,4 +13,6 @@
 <app-style-binding></app-style-binding>
 <app-pass-data-to-child [hero]="parentData" [heroObject]="parentDataObject"></app-pass-data-to-child>
 <app-reusable-component [hero]="reusableComponentUser" [heroArray]="reusableComponentUsers"></app-reusable-component>
+<app-send-data-to-parent (parentFunction)="parentFunction($event)" app-send-data-to-parent (parentObjectFunction)="parentObjectFunction($event)"></app-send-data-to-parent>
+<h4>{{ dataFromChild }}</h4>
 <app-footer></app-footer>

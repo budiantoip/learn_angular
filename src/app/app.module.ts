@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-child.component';
 import { ReusableComponentComponent } from './reusable-component/reusable-component.component';
+import { SendDataToParentComponent } from './send-data-to-parent/send-data-to-parent.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ReusableComponentComponent } from './reusable-component/reusable-compon
     FooterComponent,
     StyleBindingComponent,
     PassDataToChildComponent,
-    ReusableComponentComponent
+    ReusableComponentComponent,
+    SendDataToParentComponent
   ],
   imports: [
     BrowserModule,
