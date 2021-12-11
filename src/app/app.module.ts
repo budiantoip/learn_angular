@@ -23,6 +23,8 @@ import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-chil
 import { ReusableComponentComponent } from './reusable-component/reusable-component.component';
 import { SendDataToParentComponent } from './send-data-to-parent/send-data-to-parent.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { RoutingSourceComponent } from './routing-source/routing-source.component';
+import { RoutingDestinationComponent } from './routing-destination/routing-destination.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { PipeComponent } from './pipe/pipe.component';
     PassDataToChildComponent,
     ReusableComponentComponent,
     SendDataToParentComponent,
-    PipeComponent
+    PipeComponent,
+    RoutingSourceComponent,
+    RoutingDestinationComponent
   ],
   imports: [
     BrowserModule,

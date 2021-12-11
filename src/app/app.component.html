@@ -16,4 +16,7 @@
 <app-send-data-to-parent (parentFunction)="parentFunction($event)" app-send-data-to-parent (parentObjectFunction)="parentObjectFunction($event)"></app-send-data-to-parent>
 <h4>{{ dataFromChild }}</h4>
 <app-pipe></app-pipe>
+<a routerLink="source">Open up source page</a> <br><br>
+<a routerLink="destination">Open up destination page</a> <br><br>
+<router-outlet></router-outlet>
 <app-footer></app-footer>
