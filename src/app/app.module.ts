@@ -20,6 +20,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-child.component';
+import { ReusableComponentComponent } from './reusable-component/reusable-component.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-chil
     HeaderComponent,
     FooterComponent,
     StyleBindingComponent,
-    PassDataToChildComponent
+    PassDataToChildComponent,
+    ReusableComponentComponent
   ],
   imports: [
     BrowserModule,

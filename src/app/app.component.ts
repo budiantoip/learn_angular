@@ -15,6 +15,23 @@ export class AppComponent {
     name: "bruce",
     age: 20
   }
+  reusableComponentUser={
+    name: 'peter',
+    age: 25,
+    address: 'indonesia'
+  }
+  reusableComponentUsers=[
+    {
+      name: 'peter',
+      age: 25,
+      address: 'indonesia'
+    },
+    {
+      name: 'bruce',
+      age: 20,
+      address: 'usa'
+    }
+  ]
 
   getMyName() {
     alert('button clicked!');

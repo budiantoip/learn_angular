@@ -1,0 +1,11 @@
+<h2>Reusable Component in Angular</h2>
+
+<h4>{{ hero.name }}</h4>
+<h4>{{ hero.age }}</h4>
+<h4>{{ hero.address }}</h4>
+
+<div class="box" *ngFor="let hero of heroArray">
+    <h4>{{ hero.name }}</h4>
+    <h4>{{ hero.age }}</h4>
+    <h4>{{ hero.address }}</h4>
+</div>
