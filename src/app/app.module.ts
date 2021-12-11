@@ -22,6 +22,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { PassDataToChildComponent } from './pass-data-to-child/pass-data-to-child.component';
 import { ReusableComponentComponent } from './reusable-component/reusable-component.component';
 import { SendDataToParentComponent } from './send-data-to-parent/send-data-to-parent.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { SendDataToParentComponent } from './send-data-to-parent/send-data-to-pa
     StyleBindingComponent,
     PassDataToChildComponent,
     ReusableComponentComponent,
-    SendDataToParentComponent
+    SendDataToParentComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
