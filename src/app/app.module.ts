@@ -25,6 +25,7 @@ import { SendDataToParentComponent } from './send-data-to-parent/send-data-to-pa
 import { PipeComponent } from './pipe/pipe.component';
 import { RoutingSourceComponent } from './routing-source/routing-source.component';
 import { RoutingDestinationComponent } from './routing-destination/routing-destination.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { RoutingDestinationComponent } from './routing-destination/routing-desti
     SendDataToParentComponent,
     PipeComponent,
     RoutingSourceComponent,
-    RoutingDestinationComponent
+    RoutingDestinationComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
