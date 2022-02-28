@@ -33,7 +33,8 @@ import { UsersComponent } from './users-service/users.component';
 import { CallApiComponent } from './call-api/call-api.component';
 
 import { UsersService } from './users-service/users.service';
-import { CallApiUsersService } from './call-api/call-api-users.service'
+import { CallApiUsersService } from './call-api/call-api-users.service';
+import { ShowListFromApiDataComponent } from './show-list-from-api-data/show-list-from-api-data.component'
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { CallApiUsersService } from './call-api/call-api-users.service'
     CustomDirectiveDirective,
     CustomDirectiveComponent,
     UsersComponent,
-    CallApiComponent
+    CallApiComponent,
+    ShowListFromApiDataComponent
   ],
   imports: [
     BrowserModule,

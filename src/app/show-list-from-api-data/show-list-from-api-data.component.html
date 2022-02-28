@@ -1,0 +1,19 @@
+<h2>Show List from API Data</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>User ID</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Completed</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{item.userId}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.title}}</td>
+            <td>{{item.completed}}</td>
+        </tr>
+    </tbody>
+</table>
