@@ -26,6 +26,8 @@ import { PipeComponent } from './pipe/pipe.component';
 import { RoutingSourceComponent } from './routing-source/routing-source.component';
 import { RoutingDestinationComponent } from './routing-destination/routing-destination.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CustomDirectiveDirective } from './custom-directive/custom-directive.directive';
+import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PipeComponent,
     RoutingSourceComponent,
     RoutingDestinationComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CustomDirectiveDirective,
+    CustomDirectiveComponent
   ],
   imports: [
     BrowserModule,
