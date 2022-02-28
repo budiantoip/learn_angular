@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,7 +30,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CustomDirectiveDirective } from './custom-directive/custom-directive.directive';
 import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
 import { UsersComponent } from './users-service/users.component';
+import { CallApiComponent } from './call-api/call-api.component';
+
 import { UsersService } from './users-service/users.service';
+import { CallApiUsersService } from './call-api/call-api-users.service'
 
 @NgModule({
   declarations: [
@@ -58,15 +62,18 @@ import { UsersService } from './users-service/users.service';
     PageNotFoundComponent,
     CustomDirectiveDirective,
     CustomDirectiveComponent,
-    UsersComponent
+    UsersComponent,
+    CallApiComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
-    UsersService
+    UsersService,
+    CallApiUsersService
   ],
   bootstrap: [AppComponent]
 })

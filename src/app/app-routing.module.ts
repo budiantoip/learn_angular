@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { RoutingSourceComponent } from './routing-source/routing-source.component';
 import { RoutingDestinationComponent } from './routing-destination/routing-destination.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CallApiComponent } from './call-api/call-api.component'
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'destination',
     component: RoutingDestinationComponent
+  },
+  {
+    path: 'call-api',
+    component: CallApiComponent
   },
   {
     path: '**',
