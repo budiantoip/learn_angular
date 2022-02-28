@@ -28,6 +28,8 @@ import { RoutingDestinationComponent } from './routing-destination/routing-desti
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CustomDirectiveDirective } from './custom-directive/custom-directive.directive';
 import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
+import { UsersComponent } from './users-service/users.component';
+import { UsersService } from './users-service/users.service';
 
 @NgModule({
   declarations: [
@@ -55,14 +57,17 @@ import { CustomDirectiveComponent } from './custom-directive/custom-directive.co
     RoutingDestinationComponent,
     PageNotFoundComponent,
     CustomDirectiveDirective,
-    CustomDirectiveComponent
+    CustomDirectiveComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    UsersService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
